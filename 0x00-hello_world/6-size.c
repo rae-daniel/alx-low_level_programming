@@ -1,7 +1,9 @@
 #include <stdio.h>
 /**
- * main - This is a program that prints the size of various types of computers
- * Retuurn 0 (Successful)
+ * main - This is a program that prints the size of data types
+ *
+ * Retuurn: 0 (Successful)
+ *
  */
 int main(void)
 {
