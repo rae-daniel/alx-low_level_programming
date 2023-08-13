@@ -10,17 +10,18 @@ int main(void)
 
 	int m;
 
-	n = 'a';
-	m = 0;
+	c = 'a';
+	d = 0;
 	while
-		(m < 10) {
-			putchar(m + '0');
-			m++;
+		(d < 10) {
+			putchar(c + '0');
+					
+			c++;
 		}
 	while
-		(n <= 'e') {
-			putchar(n);
-			n++;
+		(d <= 'f') {
+			putchar(d);
+			d++;
 		}
 	putchar('\n');
 	return (0);
