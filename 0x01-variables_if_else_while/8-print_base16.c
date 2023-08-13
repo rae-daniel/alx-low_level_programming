@@ -18,7 +18,7 @@ int main(void)
 			m++;
 		}
 	while
-		(n <= 'o') {
+		(n <= 'e') {
 			putchar(n);
 			n++;
 		}
