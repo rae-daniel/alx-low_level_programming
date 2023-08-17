@@ -2,20 +2,19 @@
 
 /**
  * main - Prints the sum of all multiples of 3 or 5 upto 1024
- * Return: Always (successful)
+ * Return: Always 0 (successful)
  */
 
 int main(void)
 {
-	int i, Z = 0;
+	int i, sum = 0;
 
-	while (i < 1024)
+	for (i = 0; i < 1024; i++)
 	{
-	if ((i % 3 == 0) || (i % 5 == 0))
-	{
-	Z += i;
+		if ((i % 3) == 0 || (i % 5) == 0)
+			sum += i;
 	}
-	i++;
-	printf("%d\n", Z);
+
+	printf("%d\n", sum);
 	return (0);
 }
